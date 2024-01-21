@@ -2,7 +2,11 @@ const Why = () => {
   return (
     <section className="relative py-16">
       <div className="container grid md:grid-cols-2 !pr-0 md:!px-[2.5rem]">
-        <header className="mb-8 text-center flow-content--m md:mb-0 md:text-left">
+        <header
+          className="mb-8 text-center flow-content--m md:mb-0 md:text-left"
+          data-aos="zoom-in"
+          data-aos-delay="400"
+        >
           <h2 className="text-3xl font-semibold text-secondary">
             What's different about Manage?
           </h2>
@@ -13,7 +17,11 @@ const Why = () => {
             teams.{" "}
           </p>
         </header>
-        <div className="why__contents flow-content--xl">
+        <div
+          className="why__contents flow-content--xl"
+          data-aos="fade-left"
+          data-aos-delay="600"
+        >
           <div className="why__item flow-content--m">
             <header className="">
               <h4 className="text-xl text-[#242d52] font-semibold md:bg-white bg-[#fff0eb] w-full flex items-center gap-4">

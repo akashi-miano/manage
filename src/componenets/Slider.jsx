@@ -29,7 +29,11 @@ const Slider = () => {
       style={{ "--swiper-pagination-color": "hsl(12, 88%, 59%)" }}
     >
       <SwiperSlide>
-        <div className="testimonial__content flex flex-col items-center bg-[#eceaea4f] px-8 py-2 text-center">
+        <div
+          className="testimonial__content flex flex-col items-center bg-[#eceaea4f] px-8 py-2 text-center"
+          data-aos="zoom-in"
+          data-aos-delay="600"
+        >
           <img
             src={person1}
             alt="Anisha's image"
@@ -45,7 +49,11 @@ const Slider = () => {
         </div>{" "}
       </SwiperSlide>
       <SwiperSlide>
-        <div className="testimonial__content flex flex-col items-center bg-[#eceaea4f] px-8 py-2 text-center rounded-md min-h-[276px]">
+        <div
+          className="testimonial__content flex flex-col items-center bg-[#eceaea4f] px-8 py-2 text-center rounded-md min-h-[276px]"
+          data-aos="zoom-in"
+          data-aos-delay="800"
+        >
           <img
             src={person2}
             alt="Ali's image"
@@ -61,7 +69,11 @@ const Slider = () => {
         </div>{" "}
       </SwiperSlide>
       <SwiperSlide>
-        <div className="testimonial__content flex flex-col items-center bg-[#eceaea4f] px-8 py-2 text-center rounded-md min-h-[276px]">
+        <div
+          className="testimonial__content flex flex-col items-center bg-[#eceaea4f] px-8 py-2 text-center rounded-md min-h-[276px]"
+          data-aos="zoom-in"
+          data-aos-delay="1000"
+        >
           <img
             src={person3}
             alt="Richard's image"

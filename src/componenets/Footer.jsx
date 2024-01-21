@@ -20,7 +20,11 @@ const Footer = () => {
     }
   };
   return (
-    <footer className="py-16 text-white bg-[#1d1e25]">
+    <footer
+      className="py-16 text-white bg-[#1d1e25]"
+      data-aos="zoom-in"
+      data-aos-delay="600"
+    >
       <div className="container">
         <div className="grid gap-4 md:grid-cols-3">
           <div className="flex flex-col gap-10 links-wrapper order-2 md:order-[0]">
