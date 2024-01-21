@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+}
+
+body {
+	line-height: 1.6;
+  overflow-x: hidden;
+}
+
+
+.btn {
+	display: inline-block;
+	border: 0;
+	background: 0;
+	padding: .5em 1.5em;
+	font-size: 1.125rem;
+	font-weight: 700;
+	transition: 250ms;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 2.5rem;
+}
+
+.flow-content--s > * + *  {
+	margin-top: .5rem !important;
+}
+.flow-content--m > * + *  {
+	margin-top: 1rem !important;
+}
+.flow-content--xm > * + *  {
+	margin-top: 1.5rem !important;
+}
+.flow-content--l > * + *  {
+	margin-top: 3rem !important;
+}
+.flow-content--xl > * + *  {
+	margin-top: 3.5rem !important;
+}
+
+.btn--primary{
+  @apply text-white rounded-full bg-primary hover:bg-[#f88e75] duration-300 hover:cursor-pointer capitalize;
+}
+
+.btn--secondary{
+  @apply text-primary rounded-full bg-white duration-300 hover:cursor-pointer capitalize hover:text-[#e9afa0];
+}
+
+.nav__link{
+  @apply capitalize hover:text-[#9095a7] duration-300; 
+}
+
+@media screen and (max-width: 34.375em) {
+  html{
+    font-size: 75%;
+  }
+}
